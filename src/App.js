@@ -2,6 +2,7 @@ import React from 'react';
 import TopMenu from './components/shared/TopMenu';
 import MainHeader from './components/layouts/MainHeader';
 import Table from './components/layouts/Table/Table';
+import Gallery from './components/layouts/Gallery/Gallery';
 import Footer from './components/shared/Footer';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <TopMenu />
       <MainHeader />
       <Table />
+      <Gallery />
       <Footer />
     </div>
   );

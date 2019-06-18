@@ -1,0 +1,25 @@
+.gallery {
+  margin-top: 2rem;
+
+  &__container {
+    min-height: 50rem;
+    // Temp
+
+    margin-top: 3rem;
+    width: 100%;
+    box-shadow: 0px 6px 12px 5px rgba($color-primary, 0.75);
+  }
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 2rem;
+
+    .grid-item {
+      background-image: url('https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2134&q=80');
+      background-size: cover;
+      height: 38rem;
+      width: auto;
+    }
+  }
+}
