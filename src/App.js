@@ -1,10 +1,12 @@
 import React from 'react';
-import './App.css';
+import TopMenu from './components/shared/TopMenu';
+import MainHeader from './components/layouts/MainHeader';
 
 function App() {
   return (
     <div className="App">
-      <h1>MediaPark App</h1>
+      <TopMenu />
+      <MainHeader />
     </div>
   );
 }

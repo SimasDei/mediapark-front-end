@@ -1,0 +1,31 @@
+.header {
+  position: relative;
+  min-height: 85rem;
+  width: 100%;
+  background-image: linear-gradient(
+    to bottom left,
+    rgba($color-gradient-1, 1),
+    rgba($color-gradient-2, 1)
+  );
+
+  &__title {
+    max-width: 47rem;
+    margin-left: 9rem;
+    font-family: Quicksand-Bold;
+    font-size: 5rem;
+    color: $color-grey-3;
+    padding-top: 4.4rem;
+  }
+
+  &__bg-shape {
+    position: absolute;
+    overflow: hidden;
+    right: 0;
+    top: 12rem;
+    height: 70rem;
+    width: 90rem;
+    margin-left: auto;
+    background-color: $color-white;
+    border-top-left-radius: 41.5rem;
+  }
+}

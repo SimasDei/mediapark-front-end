@@ -1,0 +1,31 @@
+$color-primary: #a7c0e8;
+$color-primary-light: #e6f1ff;
+$color-primary-dark: #6f88b1;
+$color-grey-1: #d9dbe2;
+$color-grey-2: #70737c;
+$color-grey-3: #30333c;
+$color-red: #e36464;
+$color-white: #fff;
+$color-black: #000;
+
+$color-gradient-1: #e8f1ff;
+$color-gradient-2: #fafcff;
+
+$width-xl: 136rem;
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: Montserrat-Medium;
+}
