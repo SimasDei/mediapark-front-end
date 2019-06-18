@@ -1,0 +1,48 @@
+.carousel-card {
+  max-width: 35rem;
+  max-height: 61rem;
+  min-height: 61rem;
+  box-shadow: 0px 16px 36px -4px rgba(167, 192, 232, 0.64);
+  border-top-right-radius: 15rem;
+  border-bottom-right-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+
+  &__img {
+    border-top-right-radius: 15rem;
+    width: 100%;
+    height: 35rem;
+  }
+
+  &__content {
+    background-color: $color-white;
+    padding: 3rem;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+  }
+
+  &__title {
+    font-family: Montserrat-SemiBold;
+    font-size: 2.6rem;
+  }
+
+  &__body {
+    margin-top: 2rem;
+  }
+
+  &__action {
+    background: none;
+    border: none;
+    margin-top: 2rem;
+    padding: 0 1.6rem;
+    margin-left: auto;
+    display: flex;
+    svg {
+      height: 2.3rem;
+      width: 3.4rem;
+
+      path {
+        fill: #000;
+      }
+    }
+  }
+}

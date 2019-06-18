@@ -2,13 +2,11 @@
   position: relative;
   min-height: 85rem;
   width: 100%;
-  background-image: linear-gradient(
-    to bottom left,
-    rgba($color-gradient-1, 1),
-    rgba($color-gradient-2, 1)
-  );
+  background-image: linear-gradient(to bottom, rgba($color-gradient-1, 1), rgba($color-white, 1));
 
   &__title {
+    position: relative;
+    z-index: 1;
     max-width: 47rem;
     margin-left: 9rem;
     font-family: Quicksand-Bold;
@@ -27,5 +25,54 @@
     margin-left: auto;
     background-color: $color-white;
     border-top-left-radius: 41.5rem;
+  }
+
+  .alice-carousel {
+    height: 70rem;
+    margin-top: 8rem;
+    & > div {
+      height: 100%;
+    }
+
+    &__wrapper {
+      height: 100%;
+    }
+  }
+  &__carousel-side {
+    position: absolute;
+    top: 25rem;
+    z-index: 3;
+    height: 67rem;
+    width: 27rem;
+    &--right {
+      right: 0;
+      background-image: linear-gradient(to left, rgba($color-white, 0.7), rgba($color-white, 0));
+    }
+    &--left {
+      left: 0;
+      background-image: linear-gradient(to right, rgba($color-white, 0.7), rgba($color-white, 0));
+    }
+  }
+
+  &__carousel-button {
+    position: absolute;
+    height: 6rem;
+    width: 6rem;
+    background-color: $color-primary;
+    border-radius: 50%;
+    border: none;
+    z-index: 3;
+    top: 53rem;
+    cursor: pointer;
+
+    &--left {
+      left: 0;
+      svg {
+        transform: rotate(180deg);
+      }
+    }
+    &--right {
+      right: 0;
+    }
   }
 }
