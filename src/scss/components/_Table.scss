@@ -1,0 +1,115 @@
+.table {
+  margin-top: 8rem;
+
+  &__container {
+    max-width: 127rem;
+    // Temp
+    min-height: 50rem;
+    margin: 0 auto;
+    box-shadow: $box-shadow;
+    border-radius: 2rem;
+  }
+
+  &__filters {
+    display: flex;
+    margin: 0 3.5rem;
+    justify-content: space-between;
+    .Dropdown-root {
+      margin-top: 6rem;
+      position: relative;
+      border-radius: 3rem;
+      background-color: $color-primary;
+      min-width: 20rem;
+      height: 6rem;
+      display: inline-block;
+
+      &:hover,
+      &:active {
+        cursor: pointer;
+      }
+
+      .Dropdown-control {
+        padding: 1.8rem 4.5rem;
+        color: $color-white;
+        font-family: Quicksand-Bold;
+        font-size: 2rem;
+
+        .Dropdown-placeholder {
+          margin-right: 5.3rem;
+        }
+      }
+
+      .Dropdown-menu {
+        background-color: $color-white;
+        border-bottom-left-radius: 3rem;
+        border-bottom-right-radius: 3rem;
+        box-shadow: $box-shadow;
+
+        .Dropdown-option {
+          padding: 2rem;
+          font-family: Montserrat-Medium;
+          font-size: 1.8rem;
+          color: $color-grey-2;
+
+          &:not(:last-of-type) {
+            border-bottom: 1px solid $color-primary-light;
+          }
+
+          &:hover {
+            background-color: $color-primary-light;
+            cursor: pointer;
+          }
+        }
+      }
+
+      &.is-open {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+      }
+
+      .Dropdown-arrow-wrapper {
+        position: absolute;
+        top: 1.8rem;
+        right: 4.5rem;
+
+        .Dropdown-arrow {
+          &--open {
+            transform: rotate(180deg);
+          }
+        }
+      }
+    }
+  }
+
+  &__table {
+    margin-top: 7rem;
+    width: 100%;
+    border-collapse: collapse;
+
+    thead {
+      tr {
+        th {
+          font-family: Montserrat-SemiBold;
+          font-size: 2rem;
+          color: $color-grey-3;
+          padding: 0 4rem 5rem 4rem;
+        }
+      }
+    }
+    tbody {
+      tr {
+        &.discounted {
+          background-image: $table-gradient;
+        }
+        td {
+          border-top: 1px solid $color-primary-light;
+          border-bottom: 1px solid $color-primary-light;
+          font-family: Montserrat-Medium;
+          font-size: 2rem;
+          color: $color-grey-2;
+          padding: 2rem 4rem;
+        }
+      }
+    }
+  }
+}

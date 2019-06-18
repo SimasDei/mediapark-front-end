@@ -11,7 +11,15 @@ $color-black: #000;
 $color-gradient-1: #e8f1ff;
 $color-gradient-2: #fafcff;
 
+$box-shadow: 0px 16px 36px -4px rgba(167, 192, 232, 0.64);
+$table-gradient: linear-gradient(
+  to right,
+  rgba($color-gradient-1, 0.7),
+  rgba($color-gradient-2, 1)
+);
+
 $width-xl: 136rem;
+$width-l: 120rem;
 
 *,
 *::after,

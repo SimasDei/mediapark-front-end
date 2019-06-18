@@ -3,12 +3,13 @@ import AliceCarousel from 'react-alice-carousel';
 import CarouselCard from './Carousel/CarouselCard';
 import { ReactComponent as ArrowIcon } from '../../scss/icons/arrow.svg';
 import carouselData from './Carousel/carouselData';
+import HeaderH1 from '../shared/HeaderH1';
 
 const MainHeader = () => {
   let Carousel;
   return (
     <header className="header">
-      <h1 className="header__title">Lorem ipsum dolor sit amet conset</h1>
+      <HeaderH1>Lorem ipsum dolor sit amet conset</HeaderH1>
       <figure className="header__bg-shape" />
       <AliceCarousel
         responsive={{
