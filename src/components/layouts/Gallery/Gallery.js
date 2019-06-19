@@ -1,5 +1,7 @@
 import React from 'react';
 import HeaderH1 from '../../shared/HeaderH1';
+import Button from '../../shared/Button';
+import galleryData from './galleryData';
 
 const Gallery = () => {
   return (
@@ -7,25 +9,16 @@ const Gallery = () => {
       <HeaderH1>Naujienos</HeaderH1>
       <div className="gallery__container">
         <div className="gallery__grid">
-          <div className="gallery__grid-item grid-item">
-            <div className="grid-item__title">Lorem ipsum dolor sit amet</div>
-          </div>
-          <div className="gallery__grid-item grid-item">
-            <div className="grid-item__title">Lorem ipsum dolor sit amet</div>
-          </div>
-          <div className="gallery__grid-item grid-item">
-            <div className="grid-item__title">Lorem ipsum dolor sit amet</div>
-          </div>
-          <div className="gallery__grid-item grid-item">
-            <div className="grid-item__title">Lorem ipsum dolor sit amet</div>
-          </div>
-          <div className="gallery__grid-item grid-item">
-            <div className="grid-item__title">Lorem ipsum dolor sit amet</div>
-          </div>
-          <div className="gallery__grid-item grid-item">
-            <div className="grid-item__title">Lorem ipsum dolor sit amet</div>
-          </div>
+          {galleryData.map(item => (
+            <div
+              className="gallery__grid-item grid-item"
+              style={{ backgroundImage: `url(${item.img})` }}
+            >
+              <div className="grid-item__title">{item.title}</div>
+            </div>
+          ))}
         </div>
+        <Button>Daugiau naujienų</Button>
       </div>
     </section>
   );
