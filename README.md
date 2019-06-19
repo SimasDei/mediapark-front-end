@@ -10,7 +10,7 @@ All files included
 ### Instalation
 
 ```
-npm init
+npm install
 ```
 
 ## Technologies Used
