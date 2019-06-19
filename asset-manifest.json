@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bd95e53e.chunk.css",
+    "main.js": "/static/js/main.83d1e590.chunk.js",
+    "main.js.map": "/static/js/main.83d1e590.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.9cf48da3.chunk.css": "/static/css/2.9cf48da3.chunk.css",
+    "static/js/2.ef797740.chunk.js": "/static/js/2.ef797740.chunk.js",
+    "static/js/2.ef797740.chunk.js.map": "/static/js/2.ef797740.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.a8d8ff040f5be5cf46a6e9825bee5c4d.js": "/precache-manifest.a8d8ff040f5be5cf46a6e9825bee5c4d.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.9cf48da3.chunk.css.map": "/static/css/2.9cf48da3.chunk.css.map",
+    "static/css/main.bd95e53e.chunk.css.map": "/static/css/main.bd95e53e.chunk.css.map",
+    "static/media/main.scss": "/static/media/Quicksand-Regular.4d044023.woff",
+    "static/media/arrow.74de9d02.svg": "/static/media/arrow.74de9d02.svg",
+    "static/media/facebook.f5eda1e3.svg": "/static/media/facebook.f5eda1e3.svg",
+    "static/media/instagram.1b3ee713.svg": "/static/media/instagram.1b3ee713.svg",
+    "static/media/person1.png": "/static/media/person1.d6e5c681.png",
+    "static/media/person2.png": "/static/media/person2.e17e26d3.png",
+    "static/media/person3.png": "/static/media/person3.39e62f70.png",
+    "static/media/select-arrow.fbb77584.svg": "/static/media/select-arrow.fbb77584.svg"
+  }
+}
