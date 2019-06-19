@@ -4,6 +4,7 @@ import MainHeader from './components/layouts/MainHeader';
 import Table from './components/layouts/Table/Table';
 import Gallery from './components/layouts/Gallery/Gallery';
 import Footer from './components/shared/Footer';
+import Form from './components/layouts/Form/Form';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <MainHeader />
       <Table />
       <Gallery />
+      <Form />
       <Footer />
     </div>
   );

@@ -9,12 +9,14 @@ const Gallery = () => {
       <HeaderH1>Naujienos</HeaderH1>
       <div className="gallery__container">
         <div className="gallery__grid">
-          {galleryData.map(item => (
+          {galleryData.map((item, index) => (
             <div
               className="gallery__grid-item grid-item"
               style={{ backgroundImage: `url(${item.img})` }}
+              key={index}
             >
-              <div className="grid-item__title">{item.title}</div>
+              <p className="grid-item__title">{item.title}</p>
+              <div className="grid-item__overlay" />
             </div>
           ))}
         </div>

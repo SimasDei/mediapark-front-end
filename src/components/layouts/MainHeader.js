@@ -24,6 +24,7 @@ const MainHeader = () => {
         autoPlay={true}
         duration={500}
         autoPlayInterval={3000}
+        autoPlayDirection={'rtl'}
         buttonsDisabled={true}
         dotsDisabled={true}
         ref={el => (Carousel = el)}
