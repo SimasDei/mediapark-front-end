@@ -1,4 +1,4 @@
-# Media Park Task
+## Media Park Task
 
 Front-end project made for Mediapark task
 
